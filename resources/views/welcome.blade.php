@@ -13,5 +13,8 @@
 
 <h1>Bem Vindo</h1>
 <p>Data atual: {{\Carbon\Carbon::now()->format('d/m/Y H:i:s') }} </p>
+
+<a href="{{route('courses.index')}}">Listar</a>
+
     </body>
 </html>
